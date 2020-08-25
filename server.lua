@@ -12,4 +12,9 @@ end
         end
     end
 
+if workspace:FindFirstChild('Baseplate') then
+    print('found baseplate ok')
+    else
+    print(nil)
+end
 printChildren()
