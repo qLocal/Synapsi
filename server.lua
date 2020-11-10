@@ -1,12 +1,9 @@
-game:GetService('UserInputService').InputBegan:Connect(function(input, gameProcessed)
-        print(input.KeyCode)
-end)
+local functions = {}
 
-function input()
-    game:GetService('UserInputService').InputBegan:Connect(function(input, gameProcessed)
-        print(input.KeyCode)
-        end
-    end)
+functions['printPlayers'] = function()
+        for i,player in pairs(game.Players:GetChildren())do
+                print(player.Name)
+         end
 end
 
-input()
+return functions
