@@ -6,7 +6,7 @@ functions['printPlayers'] = function()
          end
 end
 for i,v in pairs(functions)do
-        print(v)
+        table.insert(functions, v)
 end
 
 return functions
