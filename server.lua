@@ -9,4 +9,8 @@ for i,v in pairs(f)do
         table.insert(functions, v)
 end
 
+for i,v in pairs(modules) do
+        print(v)
+        end
+
 return f
