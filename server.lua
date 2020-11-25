@@ -5,5 +5,8 @@ functions['printPlayers'] = function()
                 print(player.Name)
          end
 end
+for i,v in pairs(functions)do
+        print(v)
+end
 
 return functions
