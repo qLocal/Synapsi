@@ -1,6 +1,6 @@
 local functions = {client = {}, server = {}}
 
-local branches = {functionsModule = require(game.ReplicatedStorage:WaitForChild('Libraries').Functions}
+local branches = {functionsModule = require(game.ReplicatedStorage:WaitForChild('Libraries').Functions)}
 
 functions.client.printTest = function()
     print('Test')
