@@ -9,7 +9,7 @@ functions.client.inputBegan = function()
 		end
 	end)
 end
-	
+	 
 branches.functionsModule:unpackClient(functions.client)
 	
 branches.functionsModule:unpackServer(functions.server)
