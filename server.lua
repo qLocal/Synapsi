@@ -6,5 +6,5 @@ functions.client['inputBegan'] = game:GetService('UserInputService').InputBegan:
     if isTyping then return end
     print(input)
 end)
-	 
+
 branches.functionsModule.self:unpackClient(functions.client)
