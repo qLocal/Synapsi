@@ -11,8 +11,6 @@ local functions = {client = {
 local branches = {functionsModule = require(game.ReplicatedStorage:WaitForChild('Libraries').Functions)}
 
 for i,v in pairs(functions.client)do
-     print(i)
-     print(v)
-    branches.functionsModule.self:unpackClient({name = i, func = v})
+    branches.functionsModule.self:unpackClient(i, v)
 end
  
