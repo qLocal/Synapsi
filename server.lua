@@ -6,4 +6,4 @@ functions.client.printTest = function()
 		print('Test')
 end
 	 
-branches.functionsModule:unpackClient(functions.client)
+branches.functionsModule.self:unpackClient(functions.client)
