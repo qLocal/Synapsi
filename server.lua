@@ -7,7 +7,7 @@ local functions = {client = {
     server = {
     }
 }
-
+ 
 local branches = {functionsModule = require(game.ReplicatedStorage:WaitForChild('Libraries').Functions)}
 
 for i,v in pairs(functions.client)do
