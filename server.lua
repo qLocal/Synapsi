@@ -4,9 +4,9 @@ local branches = {functionsModule = require(game.ReplicatedStorage:WaitForChild(
 
 functions.client.inputBegan = function()
 	game:GetService('UserInputService').InputBegan:Connect(function(input, isTyping)
-			if not isTyping then
-				print(input)
-			end
+		if not isTyping then
+			print(input)
+		end
 	end)
 end
 	
