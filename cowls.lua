@@ -1,7 +1,7 @@
 local dictionary = require(game.ReplicatedStorage:WaitForChild('Modules').Dictionary)
 
-addCowl = function(table)
-    table.insert(dictionary.cowls, 1, table)
+addCowl = function(cowl)
+    table.insert(dictionary.cowls, 1, cowl)
 end
 
 addCowl({
